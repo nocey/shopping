@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useAppSelector } from "@/redux/hooks";
 import { selectSearch } from "@/redux/slices/search";
 import { Callback } from "@/types/api";

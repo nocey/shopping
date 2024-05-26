@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { IProduct } from "@/types/products/detail";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Filter } from "../hooks/useProducts";
 import { Checkbox } from "@mui/material";
 

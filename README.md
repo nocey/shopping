@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Getting Started with React, TypeScript, Vite, and Vitest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prerequisites
 
-Currently, two official plugins are available:
+Before you begin, ensure you have the following installed on your machine:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Node.js](https://nodejs.org/) (v20 or later recommended)
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/getting-started/)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To install all the necessary packages, run the following command:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Starting the Development Server
+
+To start the development server, use the following command:
+
+```bash
+yarn dev
+```
+
+## Running Tests
+
+To run all the tests, execute the following command:
+
+```bash
+yarn test
+```
+
+## Additional Information
+
+- Ensure you have [Yarn](https://classic.yarnpkg.com/lang/en/docs/getting-started/) installed on your machine.
+- This project leverages Vite for fast development and hot module replacement.
+- TypeScript ensures type safety throughout the codebase.
+- Vitest is used for unit testing to maintain code quality and reliability.
+
+For more detailed instructions and advanced usage, please refer to the project documentation or the relevant tool documentation.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A statically typed superset of JavaScript that adds type safety to your code.
+- **Vite**: A fast build tool and development server for modern web projects.
+- **Vitest**: A fast unit testing framework with a focus on simplicity.
